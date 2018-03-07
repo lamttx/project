@@ -22,6 +22,9 @@ public class TheAnswer extends Activity {
 		// Get a reference to a TextView in the content view
 		TextView answerView = (TextView) findViewById(R.id.answer_view);
 
+		//----make change to commit------
+		int a = 1; 
+		
 		int val = findAnswer();
 		String output = (val == answer) ? "42" : "We may never know";
 		
